@@ -132,5 +132,16 @@
     </entry>
     
     
+    
+    <entry>
+      <title>呐喊FM</title>
+      <link href="/music/%E5%91%90%E5%96%8AFM.html"/>
+      <url>/music/%E5%91%90%E5%96%8AFM.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>        <div id="aplayer-HTNiOXur" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">            <pre class="aplayer-lrc-content"></pre>        </div>        <script>          var ap = new APlayer({            element: document.getElementById("aplayer-HTNiOXur"),            narrow: false,            autoplay: false,            showlrc: false,            music: {              title: "17588982495",              author: "netease",              url: "playlist",              pic: "",              lrc: ""            }          });          window.aplayers || (window.aplayers = []);          window.aplayers.push(ap);        </script><div id="aplayer-OKLJwWio" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;"><pre class="aplayer-lrc-content">[00:00.00]lrc here</pre></div><script>var ap = new APlayer({element: document.getElementById("aplayer-OKLJwWio"),narrow: false,autoplay: true,showlrc: 2,music: {title: "呐喊FM",author: "JU99",url: "url",pic: "",}});window.aplayers || (window.aplayers = []);window.aplayers.push(ap);</script><script>console.error("SyntaxError: Expected double-quoted property name in JSON at position 48 (line 2 column 47)");</script>]]></content>
+      
+    </entry>
+    
+    
   
 </search>
