@@ -99,5 +99,38 @@
     </entry>
     
     
+    
+    <entry>
+      <title></title>
+      <link href="/live2d/Diana1.0/Diana1.0.cdi3.json"/>
+      <url>/live2d/Diana1.0/Diana1.0.cdi3.json</url>
+      
+        <content type="html"><![CDATA[{"Version":3,"Parameters":[{"Id":"PARAM_ANGLE_X","GroupId":"","Name":"角度 X"},{"Id":"PARAM_ANGLE_Y","GroupId":"","Name":"角度 Y"},{"Id":"PARAM_ANGLE_Z","GroupId":"","Name":"角度 Z"},{"Id":"PARAM_EYE_L_OPEN","GroupId":"","Name":"左眼　開閉"},{"Id":"PARAM_EYE_L_SMILE","GroupId":"","Name":"左眼　笑顔"},{"Id":"PARAM_EYE_R_OPEN","GroupId":"","Name":"右眼　開閉"},{"Id":"PARAM_EYE_R_SMILE","GroupId":"","Name":"右眼　笑顔"},{"Id":"PARAM_EYE_BALL_X","GroupId":"","Name":"目玉 X"},{"Id":"PARAM_EYE_BALL_Y","GroupId":"","Name":"目玉 Y"},{"Id":"PARAM_BROW_L_Y","GroupId":"","Name":"左眉　上下"},{"Id":"PARAM_BROW_R_Y","GroupId":"","Name":"右眉　上下"},{"Id":"PARAM_BROW_L_X","GroupId":"","Name":"左眉　左右"},{"Id":"PARAM_BROW_R_X","GroupId":"","Name":"右眉　左右"},{"Id":"PARAM_BROW_L_ANGLE","GroupId":"","Name":"左眉　角度"},{"Id":"PARAM_BROW_R_ANGLE","GroupId":"","Name":"右眉　角度"},{"Id":"PARAM_BROW_L_FORM","GroupId":"","Name":"左眉　変形"},{"Id":"PARAM_BROW_R_FORM","GroupId":"","Name":"右眉　変形"},{"Id":"PARAM_MOUTH_FORM","GroupId":"","Name":"口　変形"},{"Id":"PARAM_MOUTH_OPEN_Y","GroupId":"","Name":"口　開閉"},{"Id":"PARAM_BODY_ANGLE_X","GroupId":"","Name":"体の回転　X"},{"Id":"PARAM_BODY_ANGLE_Y","GroupId":"","Name":"体の回転　Y"},{"Id":"PARAM_BODY_ANGLE_Z","GroupId":"","Name":"体の回転　Z"},{"Id":"PARAM_BREATH","GroupId":"","Name":"呼吸"},{"Id":"Param6","GroupId":"","Name":"猫耳"},{"Id":"Param2","GroupId":"","Name":"随便抖x"},{"Id":"Param3","GroupId":"","Name":"随便抖y"},{"Id":"Param4","GroupId":"","Name":"星星眼"},{"Id":"Param5","GroupId":"","Name":"爱心眼"},{"Id":"Param7","GroupId":"","Name":"流汗"},{"Id":"Param","GroupId":"","Name":"左右抖"}],"ParameterGroups":[],"Parts":[{"Id":"PARTS_01_BODY","Name":"体"},{"Id":"PARTS_01_NECK","Name":"首"},{"Id":"PARTS_01_HAIR_BACK_001","Name":"後ろ髪"},{"Id":"PARTS_01_HAIR_SIDE_001","Name":"横髪"},{"Id":"PARTS_01_HAIR_FRONT_001","Name":"前髪"},{"Id":"PARTS_01_EAR_001","Name":"耳"},{"Id":"PARTS_01_NOSE_001","Name":"鼻"},{"Id":"PARTS_01_MOUTH_001","Name":"口"},{"Id":"PARTS_01_BROW_001","Name":"まゆ毛"},{"Id":"PARTS_01_EYE_BALL_001","Name":"目玉"},{"Id":"PARTS_01_EYE_001","Name":"目"},{"Id":"PARTS_01_FACE_001","Name":"顔"}]}]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/live2d/Diana1.0/Diana1.0.model3.json"/>
+      <url>/live2d/Diana1.0/Diana1.0.model3.json</url>
+      
+        <content type="html"><![CDATA[{"Version":3,"FileReferences":{"Moc":"Diana1.0.moc3","Textures":["Diana1.0.2048/texture_00.png"],"Physics":"Diana1.0.physics3.json","DisplayInfo":"Diana1.0.cdi3.json"},"Groups":[{"Target":"Parameter","Name":"EyeBlink","Ids":[]}]}]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/live2d/Diana1.0/Diana1.0.physics3.json"/>
+      <url>/live2d/Diana1.0/Diana1.0.physics3.json</url>
+      
+        <content type="html"><![CDATA[{"Version":3,"Meta":{"PhysicsSettingCount":2,"TotalInputCount":8,"TotalOutputCount":3,"VertexCount":14,"EffectiveForces":{"Gravity":{"X":0,"Y":-1},"Wind":{"X":0,"Y":0}},"PhysicsDictionary":[{"Id":"PhysicsSetting1","Name":"随便抖"},{"Id":"PhysicsSetting2","Name":"左右抖"}]},"PhysicsSettings":[{"Id":"PhysicsSetting1","Input":[{"Source":{"Target":"Parameter","Id":"PARAM_ANGLE_X"},"Weight":60,"Type":"X","Reflect":false},{"Source":{"Target":"Parameter","Id":"PARAM_ANGLE_Z"},"Weight":60,"Type":"Angle","Reflect":false},{"Source":{"Target":"Parameter","Id":"PARAM_BODY_ANGLE_X"},"Weight":40,"Type":"X","Reflect":false},{"Source":{"Target":"Parameter","Id":"PARAM_BODY_ANGLE_Z"},"Weight":40,"Type":"Angle","Reflect":false}],"Output":[{"Destination":{"Target":"Parameter","Id":"Param2"},"VertexIndex":1,"Scale":150,"Weight":100,"Type":"Angle","Reflect":false},{"Destination":{"Target":"Parameter","Id":"Param3"},"VertexIndex":2,"Scale":30,"Weight":100,"Type":"Angle","Reflect":false}],"Vertices":[{"Position":{"X":0,"Y":0},"Mobility":1,"Delay":1,"Acceleration":1,"Radius":0},{"Position":{"X":0,"Y":10},"Mobility":0.7,"Delay":1,"Acceleration":2,"Radius":10},{"Position":{"X":0,"Y":20},"Mobility":0.7,"Delay":1,"Acceleration":1,"Radius":10},{"Position":{"X":0,"Y":25},"Mobility":0.95,"Delay":1,"Acceleration":1,"Radius":5},{"Position":{"X":0,"Y":30},"Mobility":0.95,"Delay":1,"Acceleration":1,"Radius":5},{"Position":{"X":0,"Y":34},"Mobility":0.95,"Delay":1,"Acceleration":1,"Radius":4},{"Position":{"X":0,"Y":37},"Mobility":0.95,"Delay":1,"Acceleration":1,"Radius":3},{"Position":{"X":0,"Y":39},"Mobility":0.95,"Delay":1,"Acceleration":1,"Radius":2}],"Normalization":{"Position":{"Minimum":-10,"Default":0,"Maximum":10},"Angle":{"Minimum":-10,"Default":0,"Maximum":10}}},{"Id":"PhysicsSetting2","Input":[{"Source":{"Target":"Parameter","Id":"PARAM_ANGLE_X"},"Weight":60,"Type":"X","Reflect":false},{"Source":{"Target":"Parameter","Id":"PARAM_ANGLE_Z"},"Weight":60,"Type":"Angle","Reflect":false},{"Source":{"Target":"Parameter","Id":"PARAM_BODY_ANGLE_X"},"Weight":40,"Type":"X","Reflect":false},{"Source":{"Target":"Parameter","Id":"PARAM_BODY_ANGLE_Z"},"Weight":40,"Type":"Angle","Reflect":false}],"Output":[{"Destination":{"Target":"Parameter","Id":"Param"},"VertexIndex":1,"Scale":120,"Weight":100,"Type":"Angle","Reflect":false}],"Vertices":[{"Position":{"X":0,"Y":0},"Mobility":1,"Delay":1,"Acceleration":1,"Radius":0},{"Position":{"X":0,"Y":10},"Mobility":0.95,"Delay":1,"Acceleration":1,"Radius":10},{"Position":{"X":0,"Y":20},"Mobility":0.95,"Delay":1,"Acceleration":1,"Radius":10},{"Position":{"X":0,"Y":30},"Mobility":0.95,"Delay":1,"Acceleration":1,"Radius":10},{"Position":{"X":0,"Y":35},"Mobility":0.95,"Delay":1,"Acceleration":1,"Radius":5},{"Position":{"X":0,"Y":40},"Mobility":0.95,"Delay":1,"Acceleration":1,"Radius":5}],"Normalization":{"Position":{"Minimum":-10,"Default":0,"Maximum":10},"Angle":{"Minimum":-10,"Default":0,"Maximum":10}}}]}]]></content>
+      
+    </entry>
+    
+    
   
 </search>
